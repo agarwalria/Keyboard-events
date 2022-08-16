@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>keyboard_events</title>
+        <link href="index.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <header>
+            <img id="bg_img" src="photo-1435686858161-59da32dfd4b4.jfif" alt="Background Image">
+            <div id="container">
+                <div class="items" onmousedown="play_a()" onmouseup="pause_a()">A<br>CLAP</div>
+                <div class="items">S<br>HIHAT</div>
+                <div class="items">D<br>KICK</div>
+                <div class="items">F<br>OPENHAT</div>
+                <div class="items">G<br>BOOM</div>
+                <div class="items">H<br>RIDE</div>
+                <div class="items">J<br>SNARE</div>
+                <div class="items">K<br>TOM</div>
+                <div class="items">L<br>TINK</div>
+            </div> 
+        </header>
+        
+        <audio id="g">
+            <source src="boom.wav" type="audio/wav">
+        </audio> 
+        
+        <audio id="a">
+            <source src="clap.wav" type="audio/wav">
+        </audio>
+        
+        <audio id="s">
+            <source src="hihat.wav" type="audio/wav">
+        </audio>
+
+        <audio id="d">
+            <source src="kick.wav" type="audio/wav">
+        </audio>
+
+        <audio id="f">
+            <source src="openhat.wav" type="audio/wav">
+        </audio>
+
+        <audio id="h">
+            <source src="ride.wav" type="audio/wav">
+        </audio>
+
+        <audio id="j">
+            <source src="snare.wav" type="audio/wav">
+        </audio>
+
+        <audio id="k">
+            <source src="tom.wav" type="audio/wav">
+        </audio>
+
+        <audio id="l">
+            <source src="tink.wav" type="audio/wav">
+        </audio>
+    
+    </body>
+    <script type="text/javascript" src="index.js"></script>
+</html>
